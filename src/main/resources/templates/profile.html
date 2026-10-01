@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hồ sơ cá nhân</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/mainjs.js" defer></script>
+</head>
+<body>
+<main id="profile-page">
+    <h1>Hồ sơ cá nhân</h1>
+    <p id="message" role="status" aria-live="polite">Đang tải thông tin…</p>
+    <section id="profile" hidden>
+        <img id="avatar" src="/images/avatar.svg" width="96" height="96" alt="Ảnh đại diện">
+        <h2 id="full-name"></h2>
+        <p id="email"></p>
+    </section>
+    <button id="logout" type="button">Đăng xuất</button>
+    <section>
+        <h2>Danh sách người dùng</h2>
+        <button id="load-users" type="button">Tải danh sách</button>
+        <ul id="users"></ul>
+    </section>
+</main>
+</body>
+</html>

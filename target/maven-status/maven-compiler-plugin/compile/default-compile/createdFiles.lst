@@ -1,0 +1,17 @@
+vn\iotstar\repository\UserRepository.class
+vn\iotstar\VdJwtApplication.class
+vn\iotstar\exception\InvalidTokenException.class
+vn\iotstar\dto\RegisterUserDTO.class
+vn\iotstar\service\JWTService.class
+vn\iotstar\dto\LoginUserDTO.class
+vn\iotstar\dto\LoginResponse.class
+vn\iotstar\service\UserService.class
+vn\iotstar\config\ApplicationConfiguration.class
+vn\iotstar\Entity\User.class
+vn\iotstar\config\SecurityConfiguration.class
+vn\iotstar\controller\AuthController.class
+vn\iotstar\controller\AuthenticationController.class
+vn\iotstar\exception\GlobalExceptionHandler.class
+vn\iotstar\controller\UserController.class
+vn\iotstar\filter\JwtAuthenticationFilter.class
+vn\iotstar\service\AuthenticationService.class

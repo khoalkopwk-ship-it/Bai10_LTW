@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/mainjs.js" defer></script>
+</head>
+<body>
+<main>
+    <h1>Tài khoản của bạn</h1>
+    <p id="message" role="status" aria-live="polite"></p>
+    <section>
+        <h2>Đăng nhập</h2>
+        <form id="login-form">
+            <label>Email <input name="email" type="email" autocomplete="username" required maxlength="100"></label>
+            <label>Mật khẩu <input name="password" type="password" autocomplete="current-password" required></label>
+            <button type="submit">Đăng nhập</button>
+        </form>
+    </section>
+    <section>
+        <h2>Tạo tài khoản</h2>
+        <form id="signup-form">
+            <label>Họ tên <input name="fullName" autocomplete="name" required maxlength="255"></label>
+            <label>Email <input name="email" type="email" autocomplete="email" required maxlength="100"></label>
+            <label>Mật khẩu (8–64 ký tự) <input name="password" type="password" autocomplete="new-password" required minlength="8" maxlength="64"></label>
+            <button type="submit">Đăng ký</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>
